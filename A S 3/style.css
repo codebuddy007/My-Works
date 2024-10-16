@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#ms-bg{
+    height: 15px;
+    width: 15px;
+    z-index: 98989898;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#main{
+    height: auto;
+    width: 100vw;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+#home{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+}
+nav{
+    width: 100vw;
+    padding: 20px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#headings{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+.bounding .bndng-el{
+    transform: translateY(100%);
+}
+#headings h1{
+    font-size: 8vw;
+    line-height: 0.9;
+    opacity: .6;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+#block-txt{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#s-h1{
+    margin-left:95px;
+}
+#block-txt h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#st-hdng{
+    margin-top: 70px;
+    padding-right: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#st-hdng h5{
+    text-align: right;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+#home-ftr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100vw;
+    bottom: 5%;
+}
+#home-ftr a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#home-ftr #icn-set{
+    display: flex;
+    gap: 5px;
+}
+#home-ftr .circle{
+    height: 24px;
+    width: 24px;
+    background-color: #888;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#second{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 125px;
+    padding-right: 8vw;
+    padding-left: 2vw;
+    background-color: black;
+}
+#second .sec-inr{
+    border-top: 0.8px solid #888;
+    padding: 2.3vw 2vw;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.inr-last{
+    border-bottom: 0.8px solid #888;
+}
+.sec-inr h1{
+    text-transform: uppercase;
+    font-size: 4.5vw;
+    opacity: .6;
+}
+.sec-inr img{
+    position: absolute;
+    z-index: 99;
+    height: 130%;
+    opacity: 0;
+   
+    
+}
+#about{
+    width: 100vw;
+    background-color: black;
+    padding: 8vw 4vw;
+    display: flex;
+    align-items: center;
+  
+    gap: 40px;
+    padding-left: 34vw;
+}
+#txt-abt{
+    width: 27rem;
+}
+#txt-abt h5{
+    text-transform: uppercase;
+    opacity: .7;
+    margin-bottom: 18px;
+}
+#txt-abt p{
+    line-height: 1.4;
+    margin-bottom: 26px;
+}
+#txt-abt a{
+    padding: 11px 20px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 13px;
+}
+#about img{
+    width: 160px;
+}
+
+#subs{
+    background-color: black;
+    padding: 18px 26px;
+    padding-bottom: 7vw;
+}
+#subs h5{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+#subs h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 8px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 25px;
+    background-color: black;
+}
+#ftr-lft{
+    display: flex;
+    gap: 18px;
+
+}
+#ftr-rt{
+    display: flex;
+    gap: 18px;
+    padding-right: 20px;
+} 
+
+#ftr-rt a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
